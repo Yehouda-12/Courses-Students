@@ -60,7 +60,7 @@ export const updateStudent = async (req, res) => {
       return res.status(404).json({ message: "Student not found" });
     }
 
-    students[index] = { ...students[index], id, ...req.body };
+    students[index] = {update_at:new Date.toISOString(),...students[index], id, ...req.body };
     //     const { id: _, ...body } = req.body;
     // users[index] = { ...users[index], ...body };
 
