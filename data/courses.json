@@ -1,0 +1,16 @@
+[{
+  "id": 1,
+  "name": "JavaScript for Beginners",
+  "instructor": "David Smith",
+  "credits": 2
+},{
+  "id": 3,
+  "name": "JavaScript for Mark",
+  "instructor": "David Smith",
+  "credits": 4
+},{
+  "id": 3,
+  "name": "JavaScript for Mark",
+  "instructor": "David Smith",
+  "credits": 6
+}]
