@@ -29,7 +29,7 @@ export const getStudentByID = async (req, res) => {
 };
 export const addStudent = async (req, res) => {
   try {
-    const students = readStudents();
+    const students = await  readStudents();
     const maxId =
       students.length > 0 ? Math.max(...students.map((u) => u.id)) : 0;
     const newStudent = {
